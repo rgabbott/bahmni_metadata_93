@@ -1,0 +1,8 @@
+uuid,Members,Answers,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Units,Normal high,Normal low,_version:1,_order:1090
+6a249ef0-214d-4c30-9aa9-a06b9eff855c,,,OPG (orthopantomography),,,Radiology,Text,,,,,
+7fb8e1d2-2a32-4fef-9552-ada974a2d508,,,Occlusal (IntraOral Xray),,,Radiology,Text,,,,,
+ae0d1ec1-b11a-4730-9d23-0d6e3d47c589,,,Periapical (IntraOral Xray),,,Radiology,Text,,,,,
+778347ba-8439-4c56-ae98-1f9b5c5519e6,,,Bitewing (IntraOral Xray),,,Radiology,Text,,,,,
+5439da91-120e-45bc-9bef-e1cd9be3cd74,,,Cephalometric,,,Radiology,Text,,,,,
+c3e03426-3f10-11e4-adec-0800271c1b75,"Sinuses, 3 views (X-ray);Facial bones, 3 views (X-ray);Mandible panorex (X-ray);Temporomandibular joint, bilateral (Xray);OPG (orthopantomography);Occlusal (IntraOral Xray);Periapical (IntraOral Xray);Bitewing (IntraOral Xray);
+Cephalometric",,Face,face,,ConvSet,N/A,,,,,
