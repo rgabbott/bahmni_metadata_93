@@ -1,0 +1,5 @@
+Uuid,Void/Retire ,Name,Description,A is to B,B is to A,Weight,Preferred,_order:2020
+03ecf59a-4c7a-11e5-9192-080027b662ec,TRUE,Doctor/Patient,Relationship from a primary care provider to the patient,Doctor,Patient,,,
+03ed3084-4c7a-11e5-9192-080027b662ec,TRUE,Sibling/Sibling,"Relationship between brother/sister, brother/brother, and sister/sister",Sibling,Sibling,,,
+03ed79c5-4c7a-11e5-9192-080027b662ec,TRUE,Parent/Child,Relationship from a mother/father to the child,Parent,Child,,,
+2a5f4ff4-a179-4b8a-aa4c-40f71956ebbc,TRUE,Supervisor/Supervisee,Provider supervisor to provider supervisee relationship,Supervisor,Supervisee,,,

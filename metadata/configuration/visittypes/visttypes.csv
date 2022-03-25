@@ -1,0 +1,10 @@
+uuid,Void/Retire,name,description
+c228eab1-3f10-11e4-adec-0800271c1b75,FALSE,IPD,Visit for patients being admitted
+c22a5000-3f10-11e4-adec-0800271c1b75,TRUE,OPD,Visit for patients coming for OPD
+c23d6c9d-3f10-11e4-adec-0800271c1b75,TRUE,Special OPD,"Visit for patients coming for Dental, Spine, Skin etc"
+bef32e14-3f12-11e4-adec-0800271c1b75,TRUE,YCC Lab Visit,Visits for lab visit by patient when the tests are not ordered through OpenMRS
+3a8b7520-8d19-43a2-a827-793704a329af,TRUE,YCC,Visit to Yekatit Cleft Care Clinic
+f515a96c-68fa-44f3-8687-303ea51cc405,TRUE,YCC Social Work,Social Work at YCC clinic
+e686a7d2-baf6-47a9-bf8f-4327283dc260,FALSE,YCC Clinic,NULL
+c2402997-3f10-11e4-adec-0800271c1b75,TRUE,EMERGENCY,Emergency patient visit
+b9cb32c9-3f12-11e4-adec-0800271c1b75,TRUE,PHARMACY VISIT,Visit for syncing sale orders from pharmacy

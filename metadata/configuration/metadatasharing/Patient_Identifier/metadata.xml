@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list id="1">
+  <org.openmrs.PatientIdentifierType id="2" uuid="0d2ac572-8de3-46c8-9976-1f78899c599f">
+    <name>Yekatit OPD</name>
+    <description>Yekatit Hospital OPD</description>
+    <creator/>
+    <dateCreated id="3">2016-11-10 09:03:26</dateCreated>
+    <changedBy/>
+    <dateChanged id="4">2020-12-22 15:43:51</dateChanged>
+    <retired>false</retired>
+    <patientIdentifierTypeId>4</patientIdentifierTypeId>
+    <required>true</required>
+    <formatDescription>6-digit</formatDescription>
+    <checkDigit>false</checkDigit>
+    <locationBehavior>NOT_USED</locationBehavior>
+  </org.openmrs.PatientIdentifierType>
+  <org.openmrs.PatientIdentifierType id="5" uuid="81433852-3f10-11e4-adec-0800271c1b75">
+    <name>Patient Identifier</name>
+    <description>Patient Number                                 created for use by the Bahmni Registration System</description>
+    <creator/>
+    <dateCreated id="6">2014-09-17 21:00:00</dateCreated>
+    <changedBy/>
+    <dateChanged id="7">2021-01-20 12:10:47</dateChanged>
+    <retired>false</retired>
+    <patientIdentifierTypeId>3</patientIdentifierTypeId>
+    <required>true</required>
+    <checkDigit>false</checkDigit>
+    <locationBehavior>NOT_USED</locationBehavior>
+  </org.openmrs.PatientIdentifierType>
+  <org.openmrs.PatientIdentifierType id="8" uuid="8d793bee-c2cc-11de-8d13-0010c6dffd0f">
+    <name>OpenMRS Identification Number</name>
+    <description>Unique number used in OpenMRS</description>
+    <creator/>
+    <dateCreated id="9">2005-09-21 21:00:00</dateCreated>
+    <retired>false</retired>
+    <patientIdentifierTypeId>1</patientIdentifierTypeId>
+    <format></format>
+    <required>false</required>
+    <checkDigit>false</checkDigit>
+    <validator>org.openmrs.patient.impl.LuhnIdentifierValidator</validator>
+  </org.openmrs.PatientIdentifierType>
+  <org.openmrs.PatientIdentifierType id="10" uuid="8d79403a-c2cc-11de-8d13-0010c6dffd0f">
+    <name>Old Identification Number</name>
+    <description>Number given out prior to the OpenMRS system (No check digit)</description>
+    <creator/>
+    <dateCreated id="11">2005-09-21 21:00:00</dateCreated>
+    <retired>false</retired>
+    <patientIdentifierTypeId>2</patientIdentifierTypeId>
+    <format></format>
+    <required>false</required>
+    <checkDigit>false</checkDigit>
+  </org.openmrs.PatientIdentifierType>
+</list>

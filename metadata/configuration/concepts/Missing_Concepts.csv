@@ -1,0 +1,11 @@
+uuid,Members,Answers,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Allow decimals,Units,Normal high,Normal low,_version:1,_order:1050
+b3c5677d-4004-435c-8f82-84d20c538d61,,,Before conception,,,Misc,N/A,,,,,,
+53e3be63-609a-42b3-afd3-89e1eac4a7ce,,,During first trimester,,,Misc,N/A,,,,,,
+7e617c63-9166-4189-a6a8-16984a2a22ba,,,During second trimester,,,Misc,N/A,,,,,,
+5cce2132-13d4-4780-b4cb-0a53a6b2f92b,,,During third trimester,,,Misc,N/A,,,,,,
+1ab5c85b-ea05-40c4-bfd4-e36541d03cc5,,b3c5677d-4004-435c-8f82-84d20c538d61;53e3be63-609a-42b3-afd3-89e1eac4a7ce;7e617c63-9166-4189-a6a8-16984a2a22ba;5cce2132-13d4-4780-b4cb-0a53a6b2f92b,When taken,,,Misc,Coded,,,,,,
+e0c5d831-8e81-4f95-a72a-83c7c764bea8,,,Patient Death,,,Misc,N/A,,,,,,
+3634d209-f4fb-4d7b-b437-0b09446fc5b3,,,Patient Injury,,,Misc,N/A,,,,,,
+3642bad0-fead-4dc2-be3f-ff172533325d,,,Serious Complication,,,Misc,N/A,,,,,,
+4cbd2bf6-265f-4085-bb43-b5f2def87234,,e0c5d831-8e81-4f95-a72a-83c7c764bea8;3634d209-f4fb-4d7b-b437-0b09446fc5b3;3642bad0-fead-4dc2-be3f-ff172533325d,Nature of Event,,,Misc,Coded,,,,,,
+fc87a199-05b7-488e-9e58-9ef32e7e327a,,b3c5677d-4004-435c-8f82-84d20c538d61;53e3be63-609a-42b3-afd3-89e1eac4a7ce;7e617c63-9166-4189-a6a8-16984a2a22ba;5cce2132-13d4-4780-b4cb-0a53a6b2f92b,Other Vitamin,,,Misc,Coded,,,,,,

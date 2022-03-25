@@ -1,0 +1,6 @@
+UUID,Void/Retire,Name,Description
+b8bbf83e-645f-451f-8efe-a0db56f09676,FALSE,"Login Location","When a user logs in and chooses a session location, they may only choose one with this tag"
+a675e840-d225-11e4-9c67-080027b662ec,FALSE,"Admission Location","General Ward Patients"
+475d8fa3-5572-11e6-8be9-0800270d80ce,FALSE,"Visit Location","Visit Location"
+a3e05b0e-c70d-11e7-aa2b-8e7070d6a3d1,FALSE,"Appointment Location","When a user user creates a appointment service and chooses a location, they may only choose one with this tag"
+664e241c-ba24-11ea-8a89-062366b11770,FALSE,"Operation Theater","Operation Theater"
