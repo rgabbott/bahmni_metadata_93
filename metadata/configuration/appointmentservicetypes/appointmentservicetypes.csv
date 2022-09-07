@@ -1,0 +1,22 @@
+UUID,Void/Retire,Name,Service Definition,Duration
+c3629f2f-ba39-42c3-a4e4-bd4809ed88c3,FALSE,Dental Assessment,Dental and Orthodontics,45
+e5d7aa67-d09a-4f73-8b7b-d3d308afb9e4,FALSE,Dental Intervention,Dental and Orthodontics,45
+6a1d16e4-abbf-4828-a1b9-8eb5371e0513,FALSE,Orthodontic Assessment,Dental and Orthodontics,45
+a5661b82-b36c-499b-8c1d-16b114ff0aca,FALSE,Orthodontic Intervention,Dental and Orthodontics,45
+a7d2b1a3-ecd8-4a1d-80b9-4aaca4e7b052,FALSE,ENT Assessment,ENT,30
+c667d3a3-4a12-4f0c-9459-d8bd633b4453,TRUE,ENT Intervention,ENT,60
+551b386e-1160-4916-a3e1-93b8b67e4880,FALSE,ENT Intervention,ENT,30
+feece690-f267-4916-8516-ab415691c53e,FALSE,Cleft Team Meeting,Other Cleft Service,120
+1efa8264-6601-47d4-9a40-9fea31c16434,FALSE,Other,Other Cleft Service,60
+71c204ae-4197-4573-9285-37b0594693dc,FALSE,Reminder,Other Cleft Service,15
+fbe6f012-fcef-4e01-a8aa-7aff56fae861,FALSE,Other Client Assessment,Social Work,60
+d7b80c52-f0a4-4c6a-ba20-80e3d762c3ce,FALSE,Other Client Intervention,Social Work,60
+7f38caa9-138e-4d01-956b-0647768fac44,FALSE,Patient Assessment,Social Work,60
+af9ceae0-6a05-4721-97b2-0ba55911ef8b,FALSE,Patient Intervention,Social Work,60
+46872917-dd2d-43a7-a8a8-1e55bb08ae02,FALSE,Assessment Over 3yrs,Speech Therapy,45
+4f388510-3217-4e2d-9332-70ecc8cc048e,FALSE,Assessment Under 3yrs,Speech Therapy,45
+84495ece-e9b2-4e39-bd31-f6bbd64b323d,FALSE,Intervention Over 3yrs,Speech Therapy,45
+44f0097f-49b7-456c-b95f-13b139ab5634,FALSE,Intervention Under 3yrs,Speech Therapy,45
+692540a6-7583-4f9a-baca-a4ac98ce15af,FALSE,Surgery Assessment,Surgery,60
+0fd94fad-6bed-47b2-b15d-fa4397e7e578,FALSE,Surgery Follow Up,Surgery,60
+98763ab3-0992-41a1-adba-fe76ac7c4aa1,FALSE,Surgery Intervention,Surgery,480

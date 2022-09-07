@@ -1,0 +1,7 @@
+UUID,Void/Retire,Name,Description,Duiration,Start time,End time,Max Load,Specialty,Location,Label colour
+a65e3924-0bf8-4d1e-91e9-6882638d7f99,FALSE,Social Work,,60,,,,,Cleft Social Work Office,#DC143C
+019daed6-0c69-49d2-934e-0f6e8238e97c,FALSE,Speech Therapy,,45,,,,,Cleft Speech Therapy Office,#00008B
+a468ad4f-7e83-4a7a-b6fc-146ab7b56b19,FALSE,ENT,,30,,,,,Cleft ENT Office,#B8860B
+9ef786e6-bfa5-4efb-983f-2f967ce94aae,FALSE,Dental and Orthodontics,,45,,,,,Cleft Dental Office,#FF8C00
+f539b293-8b42-4eef-a803-fd67d3214f67,FALSE,Surgery,,60,,,,,Cleft Surgery Office,#9932CC
+80ea6010-5bfd-4b69-9de2-9d5ebcc2ad4f,FALSE,Other Cleft Service,,,,,,,,#00BFFF

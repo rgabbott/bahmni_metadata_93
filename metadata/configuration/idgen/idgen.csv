@@ -1,0 +1,7 @@
+Uuid,Void/Retire,Identifier type,Name,Description,Prefix,Suffix,First identifier base,Min length,Max length,Base character set,_version:1,_order:6000
+c1d8a345-3f10-11e4-adec-0800271c1b75,TRUE,Patient Identifier,GAN,ID sequence source for patients whose primary health center is Ganiyari,GAN,,2000000,4,9,123456789,,
+c1d90956-3f10-11e4-adec-0800271c1b75,TRUE,Patient Identifier,SEM,ID sequence source for patients whose primary health center is Semariya,SEM,,2000000,4,9,123456789,,
+c1dbd8bd-3f10-11e4-adec-0800271c1b75,TRUE,Patient Identifier,SIV,ID sequence source for patients whose primary health center is Shivtarai,SIV,,2000000,4,9,123456789,,
+c1e39ece-3f10-11e4-adec-0800271c1b75,TRUE,Patient Identifier,BAM,ID sequence source for patients whose primary health center is Bahmini,BAH,,2000000,4,9,123456789,,
+a1a7e96e-83b3-4c1c-b0c6-f24710e62a97,TRUE,Yekatit OPD,National ID,,NAT,,2800,,,123456789,,
+0c4f42f7-c7fa-4dd6-88a0-f98a150666ad,FALSE,Patient Identifier,YCC,Yekatit Cleft Care,YCC,,15000,8,8,0123456789,,

@@ -1,0 +1,56 @@
+<addressConfiguration> 
+	<wipe>true</wipe> 
+    <addressComponents> 
+        <addressComponent> 
+            <field>COUNTRY</field> 
+            <nameMapping>Country</nameMapping> 
+            <sizeMapping>80</sizeMapping> 
+            <elementDefault></elementDefault> 
+            <requiredInHierarchy>false</requiredInHierarchy> 
+        </addressComponent>    
+        <addressComponent> 
+            <field>STATE_PROVINCE</field> 
+            <nameMapping>Region/State</nameMapping> 
+            <sizeMapping>80</sizeMapping> 
+            <requiredInHierarchy>false</requiredInHierarchy> 
+        </addressComponent>
+        <addressComponent> 
+            <field>CITY_VILLAGE</field> 
+            <nameMapping>City</nameMapping> 
+            <sizeMapping>80</sizeMapping> 
+            <requiredInHierarchy>false</requiredInHierarchy> 
+        </addressComponent>
+        <addressComponent> 
+            <field>POSTAL_CODE</field> 
+            <nameMapping>Other Country</nameMapping> 
+            <sizeMapping>80</sizeMapping> 
+            <elementDefault></elementDefault> 
+            <requiredInHierarchy>false</requiredInHierarchy> 
+        </addressComponent>
+        <addressComponent> 
+            <field>ADDRESS_2</field> 
+            <nameMapping>Village/District</nameMapping> 
+            <sizeMapping>80</sizeMapping> 
+            <requiredInHierarchy>false</requiredInHierarchy> 
+        </addressComponent>
+        <addressComponent> 
+            <field>ADDRESS_1</field> 
+            <nameMapping>Address Line 1</nameMapping> 
+            <sizeMapping>80</sizeMapping> 
+            <requiredInHierarchy>false</requiredInHierarchy> 
+        </addressComponent>
+    </addressComponents> 
+    <lineByLineFormat>
+    	<string>country</string>         
+    	<string>stateProvince</string>
+    	<string>cityVillage</string>
+    	<string>postalCode</string>
+    	<string>address2</string>
+    	<string>address1</string>
+    </lineByLineFormat> 
+    <addressHierarchyFile> 
+        <filename>addresshierarchy.csv</filename> 
+        <entryDelimiter>,</entryDelimiter> 
+        <identifierDelimiter>^</identifierDelimiter> 
+    </addressHierarchyFile> 
+</addressConfiguration>
