@@ -96,6 +96,7 @@ f15b68f8-b191-4a26-ad36-7fea282c5ad6,FALSE,Prior Cleft Surgery Diagnosis,Prior c
 08810f7f-b371-4ef8-83f1-5187998ffb24,FALSE,Prior Cleft Surgery Comment,Prior cleft surgery comment,java.lang.String,,0,
 a2ffe1f0-9a1c-4c7a-a08a-d43931fa5275,FALSE,Prior Cleft Surgery Velopharyngeal Insufficiency,Velopharyngeal insufficiency,java.lang.Boolean,,0,
 a8df6be4-3e96-4376-83cd-51a8e63bb7f4,FALSE,Ethiopian_DOB,NULL,org.openmrs.util.AttributableDate,,0,
+8189b9a1-5f55-4eeb-86a3-4c26fbfe092a,FALSE,Ethiopian_Date,Ethiopian Date,java.lang.String,,0,
 82325788-3f10-11e4-adec-0800271c1b75,TRUE,givenNameLocal,Name in local language,java.lang.String,,0,
 8233a58a-3f10-11e4-adec-0800271c1b75,TRUE,familyNameLocal,familyNameLocal,java.lang.String,,0,
 8234e7b0-3f10-11e4-adec-0800271c1b75,TRUE,middleNameLocal,middleNameLocal,java.lang.String,,0,
