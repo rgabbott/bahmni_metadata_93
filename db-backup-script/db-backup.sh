@@ -17,7 +17,7 @@ echo "Backup path"
 pwd
 sudo cp -rf /data/openmrs .
 
-#sudo find /opt/openmrs-database-backup/* -mtime +15 -exec rm -rf {} \;
+sudo find /opt/openmrs-database-backup/* -mtime +15 -exec rm -rf {} \;
 
 echo "Done ... !!! backup moved"
 
