@@ -18,7 +18,7 @@
             <field>CITY_VILLAGE</field> 
             <nameMapping>City</nameMapping> 
             <sizeMapping>80</sizeMapping> 
-            <requiredInHierarchy>false</requiredInHierarchy> 
+            <requiredInHierarchy>true</requiredInHierarchy> 
         </addressComponent>
         <addressComponent> 
             <field>POSTAL_CODE</field> 
