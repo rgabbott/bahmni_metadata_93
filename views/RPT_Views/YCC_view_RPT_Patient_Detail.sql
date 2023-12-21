@@ -4,8 +4,47 @@ select
 ,concat(coalesce(per.given_name,''),' ',coalesce(per.middle_name,''),' ',coalesce(per.family_name,'')) AS 'patient_name'
 ,date_format(p.birthdate, "%d-%b-%Y") as 'patient_birthdate'
 ,p.date_created AS 'patient_create_date'
-,timestampdiff(month,p.birthdate,pa.date_created)/12 As 'patient_age_at_registration'
-,timestampdiff(month,p.birthdate,curdate())/12 As 'patient_age_now'
+-- ,timestampdiff(month,p.birthdate,pa.date_created)/12 As 'patient_age_at_registration'
+-- ,timestampdiff(month,p.birthdate,curdate())/12 As 'patient_age_now'
+,CASE
+    WHEN timestampdiff(month, p.birthdate, pa.date_created) < 12 THEN
+      CONCAT(
+        timestampdiff(month, p.birthdate, pa.date_created),
+        ' months'
+      )
+    WHEN timestampdiff(month, p.birthdate, pa.date_created) BETWEEN 12 AND 5 * 12 THEN
+      CONCAT(
+        FLOOR(timestampdiff(month, p.birthdate, pa.date_created) / 12),
+        ' years ',
+        MOD(timestampdiff(month, p.birthdate, pa.date_created), 12),
+        ' months'
+      )
+    ELSE
+      CONCAT(
+        FLOOR(timestampdiff(month, p.birthdate, pa.date_created) / 12),
+        ' years'
+      )
+  END AS 'patient_age_at_registration'
+,CASE
+    WHEN timestampdiff(month, p.birthdate, curdate()) < 12 THEN
+      CONCAT(
+        timestampdiff(month, p.birthdate, curdate()),
+        ' months'
+      )
+    WHEN timestampdiff(month, p.birthdate, curdate()) BETWEEN 12 AND 5 * 12 THEN
+      CONCAT(
+        FLOOR(timestampdiff(month, p.birthdate, curdate()) / 12),
+        ' years ',
+        MOD(timestampdiff(month, p.birthdate, curdate()), 12),
+        ' months'
+      )
+    ELSE
+      CONCAT(
+        FLOOR(timestampdiff(month, p.birthdate, curdate()) / 12),
+        ' years'
+      )
+  END AS 'patient_age_now'
+
 ,p.gender AS 'patient_gender'
 , (select lc.value_coded_name from YCC_view_obs_last_coded_value lc where lc.person_id=pa.patient_id and lc.concept_name='Cleft Type') AS 'type_of_cleft'      -- diagnosis short name: CL CP or CLP
 , coalesce((select max('Y') from YCC_view_obs ro where ro.person_id = pa.patient_id and ro.form_name='Patient Treatment Plan'),'N')  
